@@ -1,0 +1,90 @@
+.center-title {
+
+    color: #ffffff; 
+    padding: 0.25rem 0.5rem;
+}
+.bg-cuRed {
+    background-color: #bc1520; 
+}
+.bg-cuGreen {
+    background-color: #006835; 
+}
+.cu-border {
+    border: 0.01rem solid #111111 ; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 1rem; 
+    margin-top:-0.6rem; 
+}
+.cu-border-dashed {
+    border: 0.01rem dashed red ; 
+}
+.cu-border-desc {
+    padding: 1rem;
+}
+.animotion {
+    display: inline-block;
+
+    width: 100%; 
+    height: auto; 
+    border-radius: 1rem; 
+    margin-top: 2rem;
+    height: 4rem;
+
+
+}
+.animotion div {
+    display: inline-block;
+    transform:translateY(30%);
+    padding: 0.25rem 0.5rem;
+    animation: donghua 3s infinite;
+    border-radius: 0.5rem;
+}
+@keyframes donghua {
+0% {
+    border: 0.25rem solid white;
+    margin-left: 0rem;
+    　　　　　　　　　　　　　　
+}
+
+5% {
+    border: 0.25rem solid red;
+    margin-left: -5rem;　
+}
+50%{
+    border: 0.25rem solid red;
+    margin-left: -30rem;
+}
+55%{
+    border: 0.25rem solid red;
+    margin-left: -25rem;
+}
+100% {
+    border: 0.25rem solid red;
+    margin-left: -0rem;
+}
+}
+
+#tiquma {
+    background-color: #f3f4f4;
+    color: #f47a6c;
+    padding:0 0.25rem;
+    
+}
+#copy_input {position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+
+#chat_btn:hover {
+    animation: btnhover 3s infinite;
+}
+
+@keyframes btnhover {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: seagreen;
+    }
+    100% {
+        background-color: red;
+    }
+}
